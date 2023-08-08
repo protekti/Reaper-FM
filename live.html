@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaper.FM - LIVE</title>
+    <link rel="icon" href="bg.png">
+</head>
+<style>
+    @font-face {
+  font-family: canter-bold-shadow;
+  src: url(Canter-Bold.otf);
+}
+    body {
+      background-image: url('back.png');
+      font-family: 'canter-bold-shadow', sans-serif;
+    }
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+.nav-links a {
+  color: #ffffff;
+}
+
+/* LOGO */
+.logo {
+    font-size: 3.4vw;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 2vw;
+}
+
+.menu li:hover {
+  background-color: #ff0000;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+iframe {
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+}
+</style>
+<body>
+</body>
+    
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">REAPER.FM</div>
+    
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+    
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+    
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="live.html">LIVE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </div>
+        </ul>
+    </nav>
+    <iframe width="1120" height="632" src="https://www.youtube.com/embed/live_stream?channel=UChqwYk9kZklAxZ8wpPWTEsA" frameborder="0" allowfullscreen="false"></iframe>
+
+<script>
+</script>
+</html>
